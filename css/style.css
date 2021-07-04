@@ -16,7 +16,7 @@ h2 {
 p {
   color: gray;
   margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   line-height: 28px;
 }
 
@@ -69,4 +69,27 @@ p {
   padding: 2%;
   margin-bottom: 130px;
   box-shadow: 10px 10px 30px gray;
+  border-radius: 10px;
+}
+
+#full-stack-exp {
+  border-left: 5px solid;
+  border-image: linear-gradient(tomato, orange);
+  border-image-slice: 1;
+}
+
+#baby-exp {
+  border-left: 5px solid;
+  border-image: linear-gradient(blue, tomato);
+  border-image-slice: 1;
+}
+
+.experience-section {
+  background-image: url(../images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+footer p {
+  text-align: center;
 }
