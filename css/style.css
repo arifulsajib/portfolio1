@@ -1,3 +1,72 @@
 body {
+  margin: 0;
   font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-size: 40px;
+  text-transform: capitalize;
+}
+
+p {
+  color: gray;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  line-height: 28px;
+}
+
+.orange-color {
+  color: orange;
+}
+
+
+.flexible-container {
+  display: flex;
+}
+
+.half-width {
+  width: 40%;
+  margin-left: 5%;
+  padding-left: 2%;
+  margin-bottom: 130px;
+}
+
+.half-width img {
+  width: 90%;
+}
+
+.hire-button {
+  text-decoration: none;
+  background-image: linear-gradient(tomato, orange);
+  padding: 10px 20px;
+  border: 1px solid tomato;
+  border-radius: 7px;
+  font-weight: 700;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+.top-section {
+  background-image: url("../images/top-banner.png");
+  background-repeat: no-repeat;
+}
+
+.dream-section {
+  background-image: url("../images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.experience-item {
+  width: 40%;
+  margin-left: 5%;
+  padding: 2%;
+  margin-bottom: 130px;
+  box-shadow: 10px 10px 30px gray;
 }
